@@ -10,7 +10,7 @@ stop_pct = st.number_input("Stop Loss %", min_value=0, value=15, step=1)
 stop_amount = premium * (stop_pct / 100)
 stop_price = premium - stop_amount
 
-target_20 = premium * 1.20
+target_30 = premium * 1.30
 target_50 = premium * 1.50
 
 # Display results clearly
